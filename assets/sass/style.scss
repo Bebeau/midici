@@ -1,0 +1,22 @@
+/*
+Theme Name: MidiCi Pizza
+Theme URI: http://www.mymidici.com/
+Author: Kyle Bebeau
+Author URI: http://www.times10.net/
+Description: The 2016 Theme for MidiCi Pizza
+Version: 1
+Text Domain: midici
+*/
+
+// import all custom theme styles
+
+@import "fontawesome/font-awesome.scss";
+@import "bourbon/_bourbon.scss";
+
+@import "theme/_animation.scss";
+@import "theme/_scooch.scss";
+@import "theme/_screen.scss";
+@import "theme/_print.scss";
+@import "theme/_ie.scss";
+
+@import "theme/_responsive.scss";
