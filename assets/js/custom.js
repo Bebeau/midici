@@ -137,19 +137,33 @@ var init = {
 		init.addClass();
 		init.menuToggle();
 		init.scooch();
+		init.instafeed();
+	},
+	instafeed: function() {
+		var userFeed = new Instafeed({
+            get: 'user',
+            userId: '1313742085',
+            clientId: 'd5cc76f5ce7b46359c03207e78800025',
+            accessToken: '1313742085.d5cc76f.522d3cb81b6743debc189a894c10180e',
+            resolution: 'standard_resolution',
+            template: '<a class="photo m-item" href="{{link}}" target="_blank" style="background:url({{image}}) no-repeat scroll center / cover;"><div class="playwrap"><i class="fa fa-plus"></i></div></a>',
+            limit: 20,
+            sortBy: 'most-recent'
+        });
+        userFeed.run();
 	},
 	scooch: function() {
 		setTimeout(
 			function(){
 				jQuery('.m-scooch').scooch();
-				jQuery('.arrows .left').on("click",function(e){
-					e.preventDefault();
-					jQuery('.m-scooch').scooch('prev');
-				});
-				jQuery('.arrows .right').on("click",function(e){
-					e.preventDefault();
-					jQuery('.m-scooch').scooch('next');
-				});
+				// jQuery('.arrows .left').on("click",function(e){
+				// 	e.preventDefault();
+				// 	jQuery('.m-scooch').scooch('prev');
+				// });
+				// jQuery('.arrows .right').on("click",function(e){
+				// 	e.preventDefault();
+				// 	jQuery('.m-scooch').scooch('next');
+				// });
 			}, 1000
 		); 
 	},

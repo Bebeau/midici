@@ -7,8 +7,8 @@
 get_header(); ?>
 
 <video class="hidden-xs" autoplay muted poster="<?php bloginfo('template_directory'); ?>/assets/videos/MIDICI_web-video.jpg" id="bgvid" loop>
-	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/MidiCi_Brand_1.webm" type="video/webm">
-	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici.mp4" type="video/mp4">
+	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici.webm" type="video/webm">
+	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici.ogv" type="video/ogv">
 </video>
 
 <div class="visible-xs" id="featureImage" data-parallax='{"y" : 230, "smoothness": 1}' style="background:url('<?php bloginfo('template_directory'); ?>/assets/images/location-bg.jpg') no-repeat scroll center / cover"></div>
@@ -81,13 +81,6 @@ get_header(); ?>
 
 </div>
 
-<?php 
-
-$ig_id = '1313742085';
-$ig_token = '1313742085.d5cc76f.522d3cb81b6743debc189a894c10180e';
-
-?>
-
 <div class="m-scooch m-fluid">
 	<div class="container-fluid">
 		<div class="row">
@@ -126,20 +119,5 @@ $ig_token = '1313742085.d5cc76f.522d3cb81b6743debc189a894c10180e';
      	</ul>
 	</div>
 </div>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-		var userFeed = new Instafeed({
-            get: 'user',
-            userId: '<?php echo $ig_id; ?>',
-            clientId: 'd5cc76f5ce7b46359c03207e78800025',
-            accessToken: '<?php echo $ig_token; ?>',
-            resolution: 'standard_resolution',
-            template: '<a class="photo m-item" href="{{link}}" target="_blank" style="background:url({{image}}) no-repeat scroll center / cover;"><div class="playwrap"><i class="fa fa-plus"></i></div></a>',
-            limit: 20,
-            sortBy: 'most-recent'
-        });
-        userFeed.run();
-    });
-</script>
 
 <?php get_footer(); ?>
