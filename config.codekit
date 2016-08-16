@@ -186,6 +186,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/home_banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.37847e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/home_banner.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/home_banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/instagram-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1985,13 +1996,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/videos\/MIDICI_web-video.jpg": {
-		"fileType": 16384,
+	"\/assets\/videos\/midici1.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 42668,
-		"inputAbbreviatedPath": "\/assets\/videos\/MIDICI_web-video.jpg",
-		"outputAbbreviatedPath": "\/assets\/videos\/MIDICI_web-video.jpg",
+		"initialSize": 4.89405e+06,
+		"inputAbbreviatedPath": "\/assets\/videos\/midici1.png",
+		"outputAbbreviatedPath": "\/assets\/videos\/midici1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/videos\/midici2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.94518e+06,
+		"inputAbbreviatedPath": "\/assets\/videos\/midici2.png",
+		"outputAbbreviatedPath": "\/assets\/videos\/midici2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

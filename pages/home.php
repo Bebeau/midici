@@ -6,13 +6,7 @@
 
 get_header(); ?>
 
-<video class="hidden-xs" autoplay muted poster="<?php bloginfo('template_directory'); ?>/assets/videos/MIDICI_web-video.jpg" id="bgvid" loop>
-	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici.webm" type="video/webm">
-	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici.ogv" type="video/ogv">
-	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici.mp4" type="video/mp4">
-</video>
-
-<div class="visible-xs" id="featureImage" data-parallax='{"y" : 230, "smoothness": 1}' style="background:url('<?php bloginfo('template_directory'); ?>/assets/images/location-bg.jpg') no-repeat scroll center / cover"></div>
+<div id="featureImage" data-parallax='{"y" : 230, "smoothness": 1}' style="background:url('<?php bloginfo('template_directory'); ?>/assets/images/home_banner.jpg') no-repeat scroll center / cover"></div>
 
 <div id="mainContent">
 
@@ -81,6 +75,12 @@ get_header(); ?>
 	</div>
 
 </div>
+
+<video class="hidden-xs" autoplay muted poster="<?php bloginfo('template_directory'); ?>/assets/videos/midici2.png" id="bgvid" loop data-parallax='{"y" : -230, "smoothness": 1}'>
+	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici2.webm" type="video/webm">
+	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici2.ogv" type="video/ogv">
+	<source src="<?php bloginfo('template_directory'); ?>/assets/videos/midici2.mp4" type="video/mp4">
+</video>
 
 <div class="m-scooch m-fluid">
 	<div class="container-fluid">
