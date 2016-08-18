@@ -19,6 +19,12 @@ $yelp: #d32323;
 body {
 	font-family: 'cg reg', 'open sans', helvetica, arial, sans-serif;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
+	&.home {
+		#featureImage {
+			height: 100vh;
+			margin-top: -100px;
+		}
+	}
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'cg reg', 'open sans', helvetica, arial, sans-serif;
@@ -380,10 +386,9 @@ header {
 	}
 }
 #featureImage {
-	min-height: 100vh;
+	min-height: 50vh;
 	position: relative;
 	z-index: 9;
-	margin-top: -100px;
 }
 .aligncenter {
 	text-align: center;

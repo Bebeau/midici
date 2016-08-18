@@ -1822,6 +1822,9 @@ Text Domain: midici
 body {
   font-family: 'cg reg', 'open sans', helvetica, arial, sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04); }
+  body.home #featureImage {
+    height: 100vh;
+    margin-top: -100px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'cg reg', 'open sans', helvetica, arial, sans-serif;
@@ -2278,10 +2281,9 @@ header {
       transition: all 0.2s ease-in-out; }
 
 #featureImage {
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
-  z-index: 9;
-  margin-top: -100px; }
+  z-index: 9; }
 
 .aligncenter {
   text-align: center;
