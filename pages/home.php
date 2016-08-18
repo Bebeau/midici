@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div id="featureImage" data-parallax='{"y" : 230, "smoothness": 1}' style="background:url('<?php bloginfo('template_directory'); ?>/assets/images/home_banner.jpg') no-repeat scroll center / cover"></div>
+<div id="featureImage" data-parallax='{"y" : 230, "smoothness": 1}' style="background:url('<?php bloginfo('template_directory'); ?>/assets/images/home_banner.jpg') no-repeat scroll bottom center / cover"></div>
 
 <div id="mainContent">
 

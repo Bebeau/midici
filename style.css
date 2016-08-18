@@ -1887,6 +1887,7 @@ header {
   z-index: 9999;
   height: 0;
   overflow: hidden;
+  background: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 25px 1px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -2277,9 +2278,10 @@ header {
       transition: all 0.2s ease-in-out; }
 
 #featureImage {
-  min-height: 50vh;
+  min-height: 100vh;
   position: relative;
-  z-index: 9; }
+  z-index: 9;
+  margin-top: -100px; }
 
 .aligncenter {
   text-align: center;
